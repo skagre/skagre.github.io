@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="assets/css/style.css")
+        script(src="assets/js/main.js")
+        script(src="https://kit.fontawesome.com/a076d05399.js")
+    body
+        .cover
+        .container
+            section#header-fluid
+                section#header
+                    section#avatar
+                        img(src="https://graph.facebook.com/100008261987661/picture?type=large", alt="avatar")
+                    section#name
+                        h2 Nguyễn Xuân Bắc
+                        p Website Developer
+                    section#contact
+                        a(href="mycv.pdf", target="_blank") My CV
+            section#body
+                section#profile
+                    h2#aboutme About me
+                    table
+                        tr
+                            td Gender:
+                            td Nam
+                        tr
+                            td Day of Birth:
+                            td 07/02/1999
+                        tr
+                            td From:
+                            td Vũng tàu
+                        tr
+                            td Phone Number:
+                            td +84.799871840
+                        tr
+                            td Email:
+                            td skagre4@gmail.com
+                    h2#skill Skill
+                    .progressbar
+                        p Pug / SCSS / JavaScript
+                        .progress#progress1
+                    .progressbar
+                        p UI / UX Design
+                        .progress#progress2
+                    .skill
+                        img(src="assets/images/frontend.png", alt="")
+                        h4 Frontend
+                        p Bootstrap, VueJS
+                    .skill
+                        img(src="assets/images/backend.png", alt="")
+                        h4 Backend
+                        p Django, Django REST Framework
+                    .skill
+                        img(src="assets/images/design.png", alt="")
+                        h4 Design
+                        p Adobe Photoshop, Premiere, XD
+                    h2#socials Socials
+                    a(class="social" href="https://www.facebook.com/skagre" target="_blank")
+                        img(src="assets/images/facebook.png", alt="")
+                    a(class="social" href="https://www.instagram.com/skagre4" target="_blank")
+                        img(src="assets/images/instagram.png", alt="")
+                    a(class="social" href="https://www.github.com/skagre" target="_blank")
+                        img(src="assets/images/github.png", alt="")
+                section#portfolio
+                    h2#mywork My work
+                    .projects
+                        .project
+                            .project-image(text="Django VueJS")
+                                img(src="assets/images/project1.png", alt="")
+                            h4 Website chia sẻ sách
+                            .project-links
+                                a(href="#", onClick="alert('Coming Soon !')", class="disable") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="https://github.com/skagre/sachchua-django-vuejs", target="_blank") 
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="Wordpress")
+                                img(src="assets/images/project2.png", alt="")
+                            h4 Website bán laptop
+                            .project-links
+                                a(href="http://skagre.byethost7.com/wp-shop/", target="_blank") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="#", onClick="alert('Coming Soon !')", class="disable")
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="Wordpress")
+                                img(src="assets/images/project3.png", alt="")
+                            h4 Website tin tức
+                            .project-links
+                                a(href="http://skagre.byethost7.com/wp-news/", target="_blank") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="#", onClick="alert('Coming Soon !')", class="disable") 
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="ASP.NET Core")
+                                img(src="assets/images/project4.png", alt="")
+                            h4 Website bán điện thoại
+                            .project-links
+                                a(href="https://youtu.be/28o2UbTcChE", target="_blank")
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="https://github.com/skagre/MobileShop_ASP.NET-CORE", target="_blank") 
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="Wordpress")
+                                img(src="assets/images/project5.png", alt="")
+                            h4 Theme Wordpress baomoi.com
+                            .project-links
+                                a(href="#", onClick="alert('Coming Soon !')", class="disable") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="https://github.com/skagre/baocu-Theme-WordPress", target="_blank") 
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="HTML CSS")
+                                img(src="assets/images/project6.png", alt="")
+                            h4 Giao diện Website BVU
+                            .project-links
+                                a(href="http://skagre.byethost7.com/bvu-theme/", target="_blank") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="https://github.com/skagre/BVU-Theme", target="_blank") 
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="C# WPF")
+                                img(src="assets/images/project7.png", alt="")
+                            h4 Phần mềm quản lý nhà hàng
+                            .project-links
+                                a(href="https://youtu.be/Rikoe_SvJlo", target="_blank") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="https://github.com/skagre/QuanLyNhaHang_Csharp", target="_blank") 
+                                    i.fas.fa-code
+                                    | Code
+                        .project
+                            .project-image(text="HTML CSS PHP")
+                                img(src="assets/images/project8.png", alt="")
+                            h4 Website quản lý nhà hàng
+                            .project-links
+                                a(href="#", onClick="alert('Coming Soon !')", class="disable") 
+                                    i.far.fa-eye
+                                    | Demo
+                                a(href="https://github.com/skagre/QuanLyNhaHang_PHP", target="_blank") 
+                                    i.fas.fa-code
+                                    | Code
+            section#footer 
+                | Made by 
+                a(href="https://www.facebook.com/skagre/", target="_blank") skagre
